@@ -21,7 +21,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 
-**[Leader-board]** is an app where people/players can add their names and score and it is saved, ranked and displayed.
+**[Math-magicians(react-app)]** is an app where people(math entusiests) can use a functioning calculator, and even add comments/messages
 
 ## 🛠 Built With <a name="built-with">HTML_CSS_JS Webpack and React</a>
 
@@ -68,7 +68,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://danielmatama.github.io/react-app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +99,7 @@ Example command:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/danielmatama/matama-todo-list.git
+  git clone https://github.com/danielmatama/react-app.git
 
   cd matama-awesome-es6
 ```
