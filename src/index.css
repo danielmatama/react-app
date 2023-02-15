@@ -1,27 +1,59 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:is(*, *::before, *::after) {
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  background: #2c3e50;
+}
+
+.calculator-grid {
+  display: grid;
+  justify-content: right;
+  margin-right: 4rem;
+  margin-top: 3rem;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(7.3rem, auto) repeat(5, 5rem);
+}
+
+.calculator-grid > button {
+  cursor: pointer;
+  outline: none;
+  font-size: 2rem;
+  border: 1px solid white;
+  background-color: #d6dbdf;
+}
+
+:is(.sign:hover, .sign:focus) {
+  background-color: #edbb99 !important;
+}
+
+:is(.calculator-grid > button:hover, .calculator-grid > button:focus) {
+  background-color: #fff;
+}
+
+.sign {
+  background-color: #d35400 !important;
+}
+
+.span_two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: #566573;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px 15px;
+  border: 1px solid white;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .operand {
+  color: white;
+  font-size: 2.8rem;
 }
