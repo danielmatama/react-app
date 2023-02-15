@@ -1,25 +1,41 @@
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../index.css';
 import Buttons from './Buttons';
 import Output from './Output';
 
-// eslint-disable react/prefer-stateless-function
-export default class Calculator extends React.Component {
-  render() {
-    return (
-      <div className="calculator-grid">
-        <Output
-          total={this.props.total}
-          operation={this.props.operation}
-          next={this.props.next}
-        />
-        <Buttons
-          clickHandler={this.props.clickHandler}
-        />
-      </div>
-    );
-  }
+function Calculator(props) {
+  const {
+    total,
+    operation,
+    next,
+    clickHandler,
+  } = props;
+
+  return (
+    <div className="calculator-grid">
+      <Output
+        total={total}
+        operation={operation}
+        next={next}
+      />
+      <Buttons clickHandler={clickHandler} />
+    </div>
+  );
 }
+
+Calculator.propTypes = {
+  total: PropTypes.string,
+  operation: PropTypes.string,
+  next: PropTypes.string,
+  clickHandler: PropTypes.func,
+};
+
+Calculator.defaultProps = {
+  total: '0',
+  operation: '',
+  next: '',
+  clickHandler: () => {},
+};
+
+export default Calculator;
