@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #2c3e50;
+  background: linear-gradient(to right, #3498db, #5dade2);
 }
 
 .calculator-grid {
@@ -70,4 +70,64 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7.3rem, auto) repeat(5, 6rem);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.navigation h1 {
+  font-size: 2.2rem;
+}
+
+.navigation > ul {
+  display: flex;
+}
+
+.navigation > ul > li {
+  list-style: none;
+  padding: 0 1.5rem;
+  border-left: 1.4px solid black;
+}
+
+.navigation > ul > li:first-child {
+  border: none;
+}
+
+.navigation > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-content {
+  width: 70%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.calculator-page {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10rem;
+}
+
+.quote {
+  width: 60%;
+  margin: 6rem auto;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
 }

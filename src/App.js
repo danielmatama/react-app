@@ -1,34 +1,25 @@
+/* eslint-disable */
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Calculator from './components/Calculator';
-import calculate from './logic/calculate';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Quote from './components/Quote';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: '0',
-      next: null,
-      operation: null,
-    };
-  }
-
-  clickHandler = (event) => {
-    this.setState((initialState) => calculate(initialState, event));
-  };
-
-  render() {
-    const { total, next, operation } = this.state;
-    return (
-      <div className="App">
-        <Calculator
-          total={total}
-          next={next}
-          operation={operation}
-          clickHandler={this.clickHandler}
-        />
+const App = () => (
+  <Router>
+    <div className="App">
+      <Navbar />
+      <div className="components">
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
+        </Routes>
       </div>
-    );
-  }
-}
+    </div>
+  </Router>
+
+);
 
 export default App;
