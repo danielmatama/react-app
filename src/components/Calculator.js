@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import '../index.css';
+import styles from './styles.module.css';
+// import '../index.css';
 import Buttons from './Buttons';
 import Output from './Output';
 import calculate from '../logic/calculate';
@@ -16,7 +17,8 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator-grid">
+    // <div className="calculator-grid">
+    <div className={styles.calculatorgrid}>
       <Output
         total={state.total}
         operation={state.operation}

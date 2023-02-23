@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './styles.module.css';
 
 const Buttons = (props) => {
   Buttons.propTypes = {
@@ -7,7 +8,8 @@ const Buttons = (props) => {
   };
   const { clickHandler } = props;
   return (
-    <div className="btn-subgrid">
+    // <div className="btn-subgrid">
+    <div className={styles.btnsubgrid}>
       <button type="button" onClick={() => clickHandler('AC')}>AC</button>
       <button type="button" onClick={() => clickHandler('+/-')}>+/-</button>
       <button type="button" onClick={() => clickHandler('%')}>%</button>

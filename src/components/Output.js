@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './styles.module.css';
 
 const Output = (props) => {
   Output.propTypes = {
@@ -9,8 +10,10 @@ const Output = (props) => {
   };
   const { total, next, operation } = props;
   return (
-    <div className="output">
-      <div className="operand">
+    // <div className="output">
+    <div className={styles.output}>
+      {/* <div className="operand"> */}
+      <div className={styles.operad}>
         <p>
           { total }
           { operation }
