@@ -32,9 +32,6 @@
 - **Webpack**
 - **Github Setup**
 
-
-> HTML_CSS_JS Webpack and React
-
 <details>
   <summary>Client</summary>
   <ul>
