@@ -23,11 +23,17 @@
 
 **[Math-magicians(react-app)]** is an app where people(math entusiests) can use a functioning calculator, and even add comments/messages
 
-## 🛠 Built With <a name="built-with">HTML_CSS_JS Webpack and React</a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+- **React**
+- **HTML**
+- **Webpack**
+- **Github Setup**
+
+
+> HTML_CSS_JS Webpack and React
 
 <details>
   <summary>Client</summary>
@@ -56,9 +62,9 @@
 
 > Listed below are the key features of my webpage.
 
-- **[Setup]**
-- **[Calculator UI]**
-- **[]**
+- **Setup**
+- **Calculator UI**
+- **Display QUote**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,9 +150,9 @@ Example command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Calculator]**
-- [ ] **[Home page]**
-- [ ] **[Messages]**
+-  **Calculator units converter**
+- **Calculation History**
+- **Messages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
