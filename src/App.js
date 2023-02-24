@@ -1,6 +1,4 @@
-/* eslint-disable */
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; import React from 'react';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
