@@ -101,7 +101,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-```sh
+```
   git clone https://github.com/danielmatama/react-app.git
 
   cd matama-awesome-es6
@@ -138,6 +138,12 @@ Example command:
 
 - GitHub: [DanielMatama](https://github.com/danielmatama)
 - LinkedIn: [DanielMatama](https://www.linkedin.com/in/daniel-matama-9190ba254/)
+
+👤**Abdimulhin Adan**
+
+- GitHub: [@AbdimulhinYussuf3675](https://github.com/AbdimulhinYussuf3675)
+- Twitter: [@abdimulhin](https://twitter.com/abdimulhin)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdimulhin-yussuf-7b110720b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
