@@ -5,32 +5,12 @@ function Home() {
     <div className="home-content">
       <h2>Welcome to our page</h2>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis suscipit
-        necessitatibus culpa rem, temporibus sed cumque eum aliquam asperiores
-        ipsum ipsa voluptatum iure qui id, totam at officia iste assumenda vitae
-        ad hic sunt exercitationem. Dolorum unde obcaecati hic quae ex
-        temporibus atque itaque voluptates eveniet iusto amet ipsa
-        exercitationem cumque reiciendis quod ut fugit repudiandae assumenda
-        similique, minima voluptate asperiores! Fuga minima laudantium odit
-        maiores corporis molestias doloribus tenetur necessitatibus, doloremque
-        saepe magnam cupiditate praesentium rem, placeat unde magni! Inventore
-        itaque autem unde in praesentium placeat incidunt eos iusto,
-        perspiciatis quidem vitae cupiditate cumque aut quibusdam similique
-        soluta nihil.
+       Greetings and welcome to our Mathmagitian page. Here you will enjoy multiple 
+    parts of our app, like a fully functional calculator, daily quotes from your 
+      favorite mathemagitians, and so much more!!!!
       </p>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis suscipit
-        necessitatibus culpa rem, temporibus sed cumque eum aliquam asperiores
-        ipsum ipsa voluptatum iure qui id, totam at officia iste assumenda vitae
-        ad hic sunt exercitationem. Dolorum unde obcaecati hic quae ex
-        temporibus atque itaque voluptates eveniet iusto amet ipsa
-        exercitationem cumque reiciendis quod ut fugit repudiandae assumenda
-        similique, minima voluptate asperiores! Fuga minima laudantium odit
-        maiores corporis molestias doloribus tenetur necessitatibus, doloremque
-        saepe magnam cupiditate praesentium rem, placeat unde magni! Inventore
-        itaque autem unde in praesentium placeat incidunt eos iusto,
-        perspiciatis quidem vitae cupiditate cumque aut quibusdam similique
-        soluta nihil.
+      Please go right ahead and enjoy our app. 
       </p>
     </div>
   );
