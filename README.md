@@ -71,7 +71,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://danielmatama.github.io/react-app/)
+- [Live Demo Link](https://fluffy-beijinho-b768b3.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
